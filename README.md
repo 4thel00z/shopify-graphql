@@ -110,7 +110,7 @@ fragment TypeRef on __Type {
 }
 ```
 in the [graphql explorer](https://shopify.dev/tools/graphiql-admin-api) you can extract the `schema.json`.
-Find mine [here](./schema.json). (I have remove the unnecessary parts that are returned by the explorer).
+Find mine [here](https://raw.githubusercontent.com/4thel00z/shopify-graphql/master/schema.json). (I have remove the unnecessary parts that are returned by the explorer).
 
 Using [graphql-introspection-json](https://github.com/potatosalad/graphql-introspection-json-to-sdl) you can easily generate the sdl from it using:
 
